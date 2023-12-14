@@ -32,5 +32,6 @@ int main(){
 	for(int i = 0; i < ptr.size; i++){
 		printf("%d ", ptr.p[i]);
 	}
+	free(ptr.p);
 	return 0;
 }
